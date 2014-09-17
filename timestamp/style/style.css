@@ -1,0 +1,54 @@
+body{
+	font-family: sans-serif, Verdana;
+}
+
+#main{
+	margin: 0 auto;
+	width: 800px;
+}
+
+#title{
+	width: inherit;
+	height: 80px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.underline{
+	width: inherit;
+	height: 1px;
+	background-color: gray;
+}
+
+.local{
+	background-color: #b1b1b1;
+}
+
+.time-holder{
+	
+	display: inline-block;
+	height: 100px;
+	width: auto;
+	margin: 10px;
+	padding: 10px;
+}
+
+.time{
+	height: inherit;
+	font-size: 24px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.time-zone{
+	height: inherit;
+	font-size: 12px;
+	font-style: italic;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 10px;
+}
